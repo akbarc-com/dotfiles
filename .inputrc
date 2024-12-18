@@ -1,4 +1,4 @@
 set colored-stats
 set colored-completion-prefix
 
-"\C-L": clink-insert-suggested-full-word
+"\C-L": clink-insert-suggested-line
