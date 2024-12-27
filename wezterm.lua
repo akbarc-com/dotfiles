@@ -8,15 +8,18 @@ end
 conf.window_decorations = 'RESIZE'
 
 -- conf.default_domain = 'WSL:Ubuntu'
--- conf.default_prog = { 'powershell.exe' }
+conf.default_prog = { 'powershell.exe' }
+-- conf.default_prog = { 'C:/Program Files/Git/usr/bin/bash.exe' }
 -- conf.default_prog = { 'cmd.exe ', "/k", "C:\\msys64\\msys2_shell.cmd -defterm -here -no-start -ucrt64 -shell bash " }
 -- conf.default_prog = { 'cmd.exe ', "/k", "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\Tools\\VsDevCmd.bat" }
-conf.default_prog = { 'cmd.exe', "/k", "C:\\Users\\adam\\scoop\\apps\\clink\\1.7.5\\clink_x64.exe", 'inject', '-q' }
+-- conf.default_prog = { 'cmd.exe', "/k", "C:\\Users\\adam\\scoop\\apps\\clink\\1.7.5\\clink_x64.exe", 'inject', '-q' }
 -- conf.default_prog = { 'zsh', '-l' }
 
 -- conf.default_cwd = 'C:/any'
-conf.font = wez.font('JetBrains Mono')
+conf.font = wez.font('Iosevka Extended')
 conf.font_size = 11
+-- conf.freetype_load_target = "Normal"
+-- conf.freetype_load_flags = "NO_HINTING|NO_AUTOHINT"
 conf.use_fancy_tab_bar = false
 conf.harfbuzz_features = { 'calt=0' }
 
