@@ -26,41 +26,7 @@ conf.font_rules = {
   }
 }
 conf.font_size = 12
--- conf.freetype_load_target = "Mono"
--- conf.freetype_load_flags = "NO_HINTING|NO_AUTOHINT"
 conf.use_fancy_tab_bar = false
--- conf.harfbuzz_features = { 'calt=0' }
--- conf.colors = {
---   foreground = '#b2b2b2',
---   background = '#000000',
---   cursor_bg = '#9e9e9e',
---   cursor_fg = '#080808',
---   cursor_border = '#080808', -- might change this
---   selection_fg = '#080808',
---   selection_bg = '#b2ceee',
---   ansi = {
---     '#323437',
---     '#ff5454',
---     '#8cc85f',
---     '#e3c78a',
---     '#80a0ff',
---     '#cf87e8',
---     '#80a0ff',
---     '#c6c6c6',
---   },
---   brights = {
---     '#949494',
---     '#ff5189',
---     '#36c692',
---     '#c2c292',
---     '#74b2ff',
---     '#ae81ff',
---     '#85dc85',
---     '#e4e4e4',
---   },
---   split = '#ffffff',
--- }
-
 
 conf.inactive_pane_hsb = {
   saturation = 1.0,
